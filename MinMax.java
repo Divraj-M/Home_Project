@@ -7,7 +7,7 @@ public class MinMax {
     	File file= new File("input.txt");
     	Scanner s= new Scanner(file);
     	int size=s.nextInt();
-    	int arr[]=new int[size];
+    	int arr[]= new int[size];
     	
     	for(int i=0;i<size;i++)
     	{
