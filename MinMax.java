@@ -4,7 +4,9 @@ import java.util.*;
 
 class MinMax {
     public static void main(String[] args) {
-    	File file= new File("input.txt");
+        try
+            {
+                File file= new File("input.txt");
     	Scanner s = new Scanner(file);
     	int size=s.nextInt();
     	int arr[] = new int[size];
@@ -29,5 +31,12 @@ class MinMax {
 
         System.out.println("Maximum value: " + max);
         System.out.println("Minimum value: " + min);
+            }
+        catch (FileNotFoundException e){
+            System.out.println("Error:file not found");
+            e.printStackTrace();
+        }
+                
+    	
     }
 }
