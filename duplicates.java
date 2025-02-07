@@ -7,7 +7,7 @@ public class duplicates
     {
     	try
     	{
-    		File file new File("input1.txt");
+    		File file = new File("input1.txt");
     		Scanner s=new Scanner(file);
     		
     		int size=s.nextInt();
