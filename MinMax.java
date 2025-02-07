@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 public class MinMax {
     public static void main(String[] args) {
     	File file= new File("input.txt");
-    	Scanner s=new Scanner(file);
+    	Scanner s= new Scanner(file);
     	int size=s.nextInt();
     	int arr[]=new int[size];
     	
