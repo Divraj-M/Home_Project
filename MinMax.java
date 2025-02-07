@@ -1,8 +1,8 @@
-import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Scanner;
 
-public class MinMax {
+class MinMax {
     public static void main(String[] args) {
     	File file= new File("input.txt");
     	Scanner s= new Scanner(file);
